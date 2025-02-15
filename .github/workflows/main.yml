@@ -40,7 +40,7 @@ jobs:
 
       - name: Run Pulumi
         id: run-pulumi
-        uses: pulumi/action@v6
+        uses: pulumi/actions@v6
         with: 
           command: up
           stack: ArthurVianna96/stg
